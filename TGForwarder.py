@@ -466,7 +466,7 @@ if __name__ == '__main__':
     channels_groups_monitor = ['hao115', 'yunpanshare', 'dianyingshare', 'alyp_4K_Movies', 'Aliyun_4K_Movies','Quark_Movies',
                                'XiangxiuNB', 'kuakeyun', 'ucpanpan', 'ydypzyfx', 'tianyi_pd2',
                                'guaguale115', 'ucquark', 'NewQuark|60', 'alyp_1','shareAliyun']
-    forward_to_channel = 'tgsearchers'
+    forward_to_channel = 'cloudShareForw'
     # 监控最近消息数
     limit = 20
     # 监控消息中评论数，有些视频、资源链接被放到评论中
@@ -502,9 +502,9 @@ if __name__ == '__main__':
     # 当频道禁止转发时，是否下载图片发送消息
     fdown = True
     download_folder = 'downloads'
-    api_id = xxx
-    api_hash = 'xxx'
-    string_session = 'xxx'
+    api_id = 20127766
+    api_hash = 'be53098a502fc5d65a572041b67b9eb2'
+    string_session = '1BVtsOKoBu0Yb-dJzmuYTTI33vIqrCnv6kNm9kTpgdxrY7-7A3q6lEUxZEOxrJQC7tCBAFCK4A4d6mG1PFoHrJnQSNRBdVQtWC73sTSn-CxlbHQXHm8bqsrlWdnFS4R57anXu81gx_WD-yWKfy6kBCo5unraUOcFjjUNsJ_aDJtqv_AjNCO25qeb4DicM2LBHzenMhNScyuKfZb4k21BLTMALmYHCphrN1-GOdLx_L8Z3CK0rCypFcXxY1MpYGJAcSvRJlEkss9aM966gb0cZYHWPHOWo8Qlmj8CJqMozWQnpAEwFRAx5ZL8OoF5iaAirxMg1Dmk5i1uFz-R9ip3fqA4j6ipFKhI='
     # 默认不开启代理
     proxy = None
     # 检测自己频道最近100条消息是否已经包含该资源
